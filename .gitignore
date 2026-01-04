@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Logs & reports
+*.log
+reports/
+allure-results/
+allure-report/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Selenium
+screenshots/
+downloads/
+
+# Environment variables
+.env
+
+# Test output
+pytest_cache/
