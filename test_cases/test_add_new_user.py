@@ -37,6 +37,7 @@ class Test_03_Add_New_Customer:
         self.add_customer.click_customers()
         self.add_customer.click_customers_from_menu_options()
         self.add_customer.click_addnew()
+        print(self)
         self.logger.info("***********Providing customer info started *************")
         email = generate_random_email()
 
